@@ -1,13 +1,13 @@
 {
   "name": "email-extract",
   "version": "1.0.0",
-  "description": "",
+  "description": "Retrieve all emails from a given file and saves them in a txt file.",
   "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Alessandro Benoit <micc83@gmail.com> (https://example.com)",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.2",
     "command-line-args": "^5.1.1",

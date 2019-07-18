@@ -1,12 +1,11 @@
 #! /usr/bin/env node
 const options = require('commander');
-options.version('0.0.1');
+options.version('1.0.0');
 
 options
     .arguments('<src>')
-    .description('Retrieve all emails from a given file and saved them in a txt file.')
-    // .option('-s, --src <path>', 'Source file path')
-    .option('-d, --dest <path>', 'Destination file path')
+    .description('Retrieve all emails from a given file and saves them in a txt file.')
+    .option('-d, --dest <path>', 'Destination file path, if not set the file will be saved in ./emails-found.txt')
     .action(function (src) {
         options.src = src
     });
