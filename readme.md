@@ -1,6 +1,17 @@
-# Node.js email extractor
+# Node.js email addresses extractor
 
-Retrieve all emails from a given file and saves them in a txt file.
+Extracts all email addresses from a given file and saves them in a new text file, each on a new line.
+
+**Example:**
+```sh
+$ email-extract ~/Desktop/file_that_contains_emails.eml
+```
+**File `~/Desktop/emails-found.txt`** :
+```
+email1@email.it
+email2@email.it
+...
+```
 
 ## Install
 
