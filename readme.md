@@ -22,7 +22,7 @@ Options:
 ## Dev
 
 ```sh
-git clone https://github.com/micc83/email-extract.git
+git clone git@github.com:micc83/email-extract.git
 cd email-extract
 npm install
 npm link
