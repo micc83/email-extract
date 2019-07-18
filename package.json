@@ -1,6 +1,6 @@
 {
   "name": "email-extract",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Retrieve all emails from a given file and saves them in a txt file.",
   "main": "cli.js",
   "scripts": {
@@ -10,7 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.2",
-    "command-line-args": "^5.1.1",
     "commander": "^2.20.0",
     "untildify": "^4.0.0"
   },

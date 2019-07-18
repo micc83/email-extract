@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 const options = require('commander');
-options.version('1.0.0');
+options.version('1.0.1');
 
 options
     .arguments('<src>')
