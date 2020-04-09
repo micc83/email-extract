@@ -1,6 +1,6 @@
 {
   "name": "email-extract",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Retrieve all emails from a given file and saves them in a txt file.",
   "main": "cli.js",
   "scripts": {
